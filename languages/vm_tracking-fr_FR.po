@@ -1,0 +1,560 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vinum Master Tracking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sun Nov 08 2015 14:39:45 GMT+0100 (Paris, Madrid)\n"
+"PO-Revision-Date: Wed Dec 16 2015 16:45:53 GMT+0100 (Paris, Madrid)\n"
+"Last-Translator: wordpress <webmaster@vinummaster.com>\n"
+"Language-Team: \n"
+"Language: French (France)\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "shipping Tracking"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.vinummaster.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Vinum Master"
+msgstr ""
+
+#: ../vm_tracking.php:358
+msgid "l j F Y"
+msgstr ""
+
+#: ../vm_tracking.php:370
+msgid "Your tracking number is: "
+msgstr "Votre N° de suivi est:"
+
+#: ../vm_tracking.php:376
+msgid "Currently, your parcel status is:  "
+msgstr "Actuellement, le statut de votre colis est:"
+
+#: ../includes/vm-tracking-settings.php:115
+msgid "Access Licence"
+msgstr ""
+
+#: ../includes/vm-tracking-settings.php:117
+msgid "User ID"
+msgstr ""
+
+#: ../includes/vm-tracking-settings.php:128 ../includes/vm-tracking-settings.php:
+#: 141
+msgid "Account Number"
+msgstr ""
+
+#: ../includes/vm-tracking-settings.php:139
+msgid "Access Key"
+msgstr ""
+
+#: ../includes/vm-tracking-settings.php:140
+msgid "Access Password"
+msgstr ""
+
+#: ../includes/vm-tracking-settings.php:142
+msgid "Meter Number"
+msgstr ""
+
+#: ../includes/vm-tracking-settings.php:479
+msgid "Meter Account"
+msgstr ""
+
+#: ../includes/vm-tracking-admin.php:144
+msgid "The status and message is unknow. Click on the red cross icon to create it."
+msgstr ""
+"Le statut et le message est inconnu. Cliquez sur l'icône avec la croix rouge "
+"pour le créer."
+
+#: ../includes/vm-tracking-admin.php:145
+msgid "After that, launch a tracking to update the status."
+msgstr "Ensuite, lancez une recherche de suivi pour le mettre à jour."
+
+#: ../includes/vm-tracking-admin.php:311
+msgid "error, nothing found"
+msgstr "Erreur ! Rien trouvé"
+
+#. Description of the plugin
+msgid "Add tracking url and tracking number to woocommerce"
+msgstr "Ajouter un lien de suivi et un N° de suivi à vos commandes woocommerce"
+
+#: ../vm_tracking.php:157
+msgid "Order status Changed"
+msgstr "Statut de la commande changé"
+
+#: ../vm_tracking.php:162
+msgid "Refund La Poste asked"
+msgstr "Remboursement La Poste demandé"
+
+#: ../vm_tracking.php:167
+msgid "Refund Chronopost asked"
+msgstr "Remboursement Chronopost demandé"
+
+#: ../vm_tracking.php:178
+#, php-format
+msgid "The orders: %s have not be affected."
+msgstr "Les commandes: %s n'ont pas été traitées"
+
+#: ../vm_tracking.php:201
+msgid "Settings"
+msgstr "Configuration"
+
+#: ../vm_tracking.php:210 ../vm_tracking.php:229 ../vm_tracking.php:325 ..
+#: /includes/vm-delivered-order-email.php:16
+msgid "Shipped"
+msgstr "Envoyée"
+
+#: ../vm_tracking.php:215
+#, php-format
+msgid "Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] "Envoyée (%s)"
+msgstr[1] ""
+
+#: ../vm_tracking.php:361
+msgid "Where is my Order ?"
+msgstr "Ou est ma commande ?"
+
+#: ../vm_tracking.php:364
+msgid "Your order is sent the"
+msgstr "Votre commande a été envoyée le"
+
+#: ../vm_tracking.php:366
+msgid "with"
+msgstr "avec"
+
+#: ../vm_tracking.php:373
+msgid "You can track your order by clicking on that button:  "
+msgstr "Vous pouvez suivre votre commande en cliquant sur ce bouton:"
+
+#: ../vm_tracking.php:374
+msgid "Track my order"
+msgstr "Suivre ma commande"
+
+#: ../vm_tracking.php:410 ../vm_tracking.php:412
+msgid "Mark as"
+msgstr "Marquer"
+
+#: ../vm_tracking.php:417
+msgid "Launch tracking"
+msgstr "Lancer la recherche de colis"
+
+#: ../vm_tracking.php:419
+msgid "Run Tracking"
+msgstr "Lancer la recherche de colis"
+
+#: ../vm_tracking.php:424 ../vm_tracking.php:426
+msgid "Ask La Poste refund"
+msgstr "Demander remboursement La Poste"
+
+#: ../vm_tracking.php:431 ../vm_tracking.php:433
+msgid "Ask Chronopost refund"
+msgstr "Demander remboursement Chronopost"
+
+#: ../vm_tracking.php:499
+msgid "Select a shipping method"
+msgstr "Sélectionner un transporteur"
+
+#: ../vm_tracking.php:558
+msgid "Select a Status"
+msgstr "Sélectionner un statut de commande"
+
+#: ../vm_tracking.php:721 ../includes/vm-tracking-admin.php:437
+msgid "Order delivered"
+msgstr "Commande livrée"
+
+#: ../vm_tracking.php:903 ../vm_tracking.php:1045
+msgid ""
+"Dear,<br>\n"
+"                                You will find enclosed the list of packages "
+"for which we bear\n"
+"                                complaint under sales conditions. <br>\n"
+"                                <br>\n"
+"                                Kindly make a credit or\n"
+"                                refund of such parcels. <br>\n"
+"                                <br>\n"
+"                                Best regards, <br>\n"
+"                                <br>\n"
+"                                "
+"                                                                             "
+"             \n"
+"                                The Management. <br>\n"
+"                                <br>\n"
+"                                If you don't read this message thank you to "
+"contact\n"
+"                                us by return or at the following address:"
+"<br>\n"
+"                                {shop_email}<br>\n"
+"                                <br>"
+msgstr ""
+"Madame, Monsieur, <br>\n"
+"Vous trouverez ci-joint la liste des colis pour lesquels nous demandons le "
+"remboursement ou un avoir conformément à vos conditions générales de ventes. "
+"<br>\n"
+"Cordialement,<br>\n"
+"si vous ne parvenez pas à lire ce message, merci de nous contacter par "
+"retour ou à l'adresse suivante:<br>\n"
+"{shop_email}<br>"
+
+#: ../vm_tracking.php:1074
+msgid "Parcel status"
+msgstr "Statut colis"
+
+#: ../vm_tracking.php:1100 ../vm_tracking.php:1100
+msgid "Delivered Out of time"
+msgstr "Livraison Hors Délai"
+
+#: ../vm_tracking.php:1104 ../vm_tracking.php:1104
+msgid "Delivered Delay Ok"
+msgstr "Livraison dans les délais"
+
+#: ../vm_tracking.php:1107 ../vm_tracking.php:1107 ../vm_tracking.php:1198
+msgid "Refund asked"
+msgstr "Remboursement demandé"
+
+#: ../vm_tracking.php:1110 ../vm_tracking.php:1110 ../vm_tracking.php:1198
+msgid "Refunded"
+msgstr "Remboursé"
+
+#: ../vm_tracking.php:1113 ../vm_tracking.php:1113
+msgid "Unknow Status"
+msgstr "Statut inconnu"
+
+#: ../vm_tracking.php:1116 ../vm_tracking.php:1116 ../vm_tracking.php:1198
+msgid "Unknow parcel"
+msgstr "Colis inconnu"
+
+#: ../vm_tracking.php:1119 ../vm_tracking.php:1119 ../vm_tracking.php:1198
+msgid "In Transit"
+msgstr "En Transit"
+
+#: ../vm_tracking.php:1198
+msgid "After deadline"
+msgstr "Hors délai"
+
+#: ../vm_tracking.php:1198
+msgid "Delivered"
+msgstr "Livré"
+
+#: ../vm_tracking.php:1198
+msgid "In Time"
+msgstr "Dans les délais"
+
+#: ../vm_tracking.php:1198
+msgid "International delivery"
+msgstr "Délai internationaux"
+
+#: ../vm_tracking.php:1198
+msgid "Unknow Message"
+msgstr "Message inconnu"
+
+#: ../vm_tracking.php:1206
+msgid "Select a Parcel Status"
+msgstr "Sélectionner un statut de colis"
+
+#: ../emails/shipped-order.php:19 ../emails/plain/shipped-order.php:19
+msgid "Hi"
+msgstr "Bonjour, "
+
+#: ../includes/vm-tracking-settings.php:20
+msgid "Carriers Tracking"
+msgstr "Suivi Transporteurs"
+
+#: ../includes/vm-tracking-settings.php:44
+msgid "Settings Tracking URL"
+msgstr "Configuration des URLs de suivi"
+
+#: ../includes/vm-tracking-settings.php:46
+msgid "Tracking URL"
+msgstr "URL de suivi"
+
+#: ../includes/vm-tracking-settings.php:56
+msgid "Vinum Master Carriers Tracking Settings"
+msgstr "Vinum Master Configuration des Suivi Transporteurs"
+
+#: ../includes/vm-tracking-settings.php:102
+msgid "Coliposte Account"
+msgstr "Compte Coliposte"
+
+#: ../includes/vm-tracking-settings.php:103 ../includes/vm-tracking-settings.php:
+#: 116 ../includes/vm-tracking-settings.php:466
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../includes/vm-tracking-settings.php:153
+msgid "Chronopost account"
+msgstr "Compte Chronopost"
+
+#: ../includes/vm-tracking-settings.php:194
+msgid "Generals Settings"
+msgstr "Préferences Générales"
+
+#: ../includes/vm-tracking-settings.php:201
+msgid "Your society name"
+msgstr "Nom Société"
+
+#: ../includes/vm-tracking-settings.php:210
+msgid "Siret"
+msgstr "Siret"
+
+#: ../includes/vm-tracking-settings.php:211
+msgid "Siret for French users"
+msgstr "Siret pour les utilisateurs français"
+
+#: ../includes/vm-tracking-settings.php:226
+msgid "Carriers Settings"
+msgstr "Configuration Transporteurs"
+
+#: ../includes/vm-tracking-settings.php:230
+msgid "Carriers list urls"
+msgstr "Liste des liens de suivi des transporteurs"
+
+#: ../includes/vm-tracking-settings.php:374
+msgid ""
+"Simply copy the tracking url of the carrier you want to use and paste it, in "
+"the tracking url field in the table below"
+msgstr ""
+"Copiez simplement le lien de suivi que vous voulez utiliser et collez le "
+"dans le champs Lien de suivi du tableau ci-dessous"
+
+#: ../includes/vm-tracking-settings.php:395
+msgid "ID"
+msgstr "ID"
+
+#: ../includes/vm-tracking-settings.php:396
+msgid "Carrier Name"
+msgstr "Nom transporteur"
+
+#: ../includes/vm-tracking-settings.php:397
+msgid "Tracking URL Type"
+msgstr "Lien de suivi"
+
+#: ../includes/vm-tracking-settings.php:398
+msgid "Carrier API"
+msgstr "API Transporteur"
+
+#: ../includes/vm-tracking-settings.php:459
+msgid "Login"
+msgstr "Identifiant"
+
+#: ../includes/vm-tracking-settings.php:472
+msgid "Api key"
+msgstr "Clé Api"
+
+#: ../includes/vm-tracking-settings.php:492
+msgid ""
+"If you don't have access for a carrier API, let the fields empty and only "
+"enter the tracking URL."
+msgstr ""
+"Si vous n'avez pas accès à l'API d'un transporteur, laissez les champs vides "
+"et saisissez uniquement le lien de suivi."
+
+#: ../includes/vm-tracking-settings.php:495
+msgid ""
+"In  that case, the automatic tracking will be disabled. Only handly tracking "
+"will be available."
+msgstr ""
+"Dans ce cas, le suivi automatique ne fonctionnera pas. Seul le suivi manuel "
+"sera possible."
+
+#: ../includes/vm-tracking-settings.php:517
+msgid "Choose delivered order status"
+msgstr "Choisir le statut de livraison des commandes"
+
+#: ../includes/vm-tracking-admin.php:53
+msgid "Tracking"
+msgstr "Suivi colis"
+
+#: ../includes/vm-tracking-admin.php:108 ../includes/vm-tracking-admin.php:109
+msgid "Tracking Number"
+msgstr "N° de suivi"
+
+#: ../includes/vm-tracking-admin.php:110
+msgid "Follow me"
+msgstr "Suivez moi"
+
+#: ../includes/vm-tracking-admin.php:119
+msgid "Shipped Date"
+msgstr "Date d'envoi"
+
+#: ../includes/vm-tracking-admin.php:129
+msgid ""
+"Update the tracking number and shipped date with Ajax (the page is not "
+"reloaded"
+msgstr ""
+"Mettre à jour le N° de suivi et la date d'envoi avec Ajax (la page n'est pas "
+"rechargée)"
+
+#: ../includes/vm-tracking-admin.php:129
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../includes/vm-tracking-admin.php:137
+msgid "Current Tracking message"
+msgstr "Message de suivi actuel"
+
+#: ../includes/vm-tracking-admin.php:139
+msgid ""
+"Find the current parcel status with Ajax (the page is not reloaded except if "
+"the parcel is delivered)"
+msgstr ""
+"Trouver le statut de livraison du colis avec Ajax (la page n'est pas "
+"rechargée sauf si le colis est Livré)"
+
+#: ../includes/vm-tracking-admin.php:139
+msgid "Update tracking message"
+msgstr "Mettre à jour le message de suivi"
+
+#: ../includes/vm-tracking-admin.php:140 ../includes/vm-tracking-admin.php:140
+msgid "Show the form to create new status"
+msgstr "Afficher le formulaire pour créer un nouveau statut"
+
+#: ../includes/vm-tracking-admin.php:164
+msgid "Is it refundable ?"
+msgstr "Est il remboursable ?"
+
+#: ../includes/vm-tracking-admin.php:166 ../includes/vm-tracking-admin.php:173 ..
+#: /includes/vm-tracking-admin.php:179
+msgid "Yes"
+msgstr "Oui"
+
+#: ../includes/vm-tracking-admin.php:167 ../includes/vm-tracking-admin.php:174 ..
+#: /includes/vm-tracking-admin.php:180
+msgid "No"
+msgstr "Non"
+
+#: ../includes/vm-tracking-admin.php:171
+msgid "Is it a delivered status ?"
+msgstr "est ce un statut de livraison ?"
+
+#: ../includes/vm-tracking-admin.php:177
+msgid "Send an email to the customer ?"
+msgstr "Envoyer un email au client ?"
+
+#: ../includes/vm-tracking-admin.php:183
+msgid "Create the new status with Ajax (the page is not reloaded"
+msgstr "Créer le nouveau statut avec Ajax (la page n'est pas rechargée)"
+
+#: ../includes/vm-tracking-admin.php:183
+msgid "Create new status"
+msgstr "Créer le nouveau statut"
+
+#: ../includes/vm-tracking-admin.php:344
+msgid "Error, there is no API for that carrier or an error is returned"
+msgstr "Erreur, il n'y a pas d'API pour ce transporteur ou une erreur est survenue"
+
+#: ../includes/vm-delivered-order-email.php:18
+msgid "Shipped Order Notification emails are sent when the order status is : Shipped"
+msgstr ""
+"l'email de notification d'envoi de la commande est envoyé quand le statut de "
+"la commande est: Envoyée"
+
+#: ../includes/vm-delivered-order-email.php:20
+msgid "Your Order is sent"
+msgstr "Votre commande est envoyée"
+
+#: ../includes/vm-delivered-order-email.php:21
+msgid "Your order: {order_number} is shipped"
+msgstr "Votre commande: {order_number} a été envoyée"
+
+#: ../includes/vm-delivered-order-email.php:22
+msgid ""
+"Your order: {order_number} was send the {delivery_date} with "
+"{shipping_method_name} you can to follow you parcel at:<a "
+"href=\"{tracking_url}\">{tracking_url}</a>"
+msgstr ""
+"Votre commande: {order_number} a été envoyée le {delivery_date} avec "
+"{shipping_method_name}. Vous pouvez suivre votre colis en cliquant sur ce "
+"lien:<a href=\"{tracking_url}\">{tracking_url}</a>"
+
+#: ../includes/vm-delivered-order-email.php:94
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: ../includes/vm-delivered-order-email.php:96
+msgid "Enable this email notification"
+msgstr "Activer cette notification par email"
+
+#: ../includes/vm-delivered-order-email.php:100
+msgid "Recipient(s)"
+msgstr "Destinataire(s)"
+
+#: ../includes/vm-delivered-order-email.php:102
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to "
+"<code>%s</code>."
+msgstr ""
+"Entrez les destinataires (séparés par une virgule) pour cet email. Par "
+"défaut à <code>%s</code>."
+
+#: ../includes/vm-delivered-order-email.php:107
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../includes/vm-delivered-order-email.php:109
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" <code>%s</code>."
+msgstr ""
+"Ceci détermine la ligne sujet de l'email. Laisser vide pour utiliser le "
+"sujet par défaut :  <code>%s</code>"
+
+#: ../includes/vm-delivered-order-email.php:114
+msgid "Email Heading"
+msgstr "Entête de l'email"
+
+#: ../includes/vm-delivered-order-email.php:116
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Ceci détermine l'entête principale contenue dans la notification par email. "
+"Laisser vide pour utiliser l'entête par défaut : <code>%s</code>"
+
+#: ../includes/vm-delivered-order-email.php:121
+msgid "Message"
+msgstr "Message"
+
+#: ../includes/vm-delivered-order-email.php:123
+#, php-format
+msgid ""
+"This controls the message contained within the email notification. Leave "
+"blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Ceci détermine le message contenu dans l'email de notification. Laisser vide "
+"pour utiliser le message par défaut: <code>%s</code>"
+
+#: ../includes/vm-delivered-order-email.php:126
+msgid ""
+"Your order: {order_number} was send the {delivery_date} with "
+"{shipping_method_name} you can to follow you parcel at: {tracking_url}"
+msgstr ""
+"Votre commande: {order_number} a été envoyée le {delivery_date} avec "
+"{shipping_method_name}. Vous pouvez suivre votre colis en cliquant sur ce "
+"lien:{tracking_url}"
+
+#: ../includes/vm-delivered-order-email.php:129
+msgid "Email type"
+msgstr "Type d'email"
+
+#: ../includes/vm-delivered-order-email.php:131
+msgid "Choose which format of email to send."
+msgstr "Choisissez quel format d'email envoyer."
